@@ -5,6 +5,7 @@ D=A
 D=D+A
 @16
 M=D
+![alt text](<../Capturas_prueba/Captura de pantalla 2026-07-28 143737.png>)
 //Ejercicio
 @5
 
