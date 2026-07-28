@@ -39,7 +39,7 @@ Di JGT
 D=A
 @i
 M=D
-//(100P)
+(100P)
 @i
 D=M
 @CONT
@@ -47,4 +47,5 @@ D;JEQ
 @i
 M=M-1
 0;JMP
-
+![alt text](../Capturas_prueba/loop.png)
+![alt text](../Capturas_prueba/loop2.png)
