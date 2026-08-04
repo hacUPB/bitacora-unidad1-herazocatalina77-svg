@@ -1,5 +1,5 @@
 //código para que se haga un punto en la pantalla del emulador
-@100
+@16384
 D=A 
 @PUNT //Llama al puntero
 M=D 

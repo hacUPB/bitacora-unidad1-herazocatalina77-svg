@@ -1,3 +1,5 @@
+
+```asm
 //Variables y etiquetas
 @1
 D=A
@@ -5,7 +7,9 @@ D=A
 D=D+A
 @16
 M=D
+```
 ![alt text](<../Capturas_prueba/Captura de pantalla 2026-07-28 143737.png>)
+```
 //Ejercicio
 @5
 
@@ -33,7 +37,8 @@ D=D-M //restamos las variables
 Di JGT
 @30
 0;JMP
-
+```
+```
 //
 @1000
 D=A
@@ -47,5 +52,6 @@ D;JEQ
 @i
 M=M-1
 0;JMP
+``
 ![alt text](../Capturas_prueba/loop.png)
 ![alt text](../Capturas_prueba/loop2.png)
