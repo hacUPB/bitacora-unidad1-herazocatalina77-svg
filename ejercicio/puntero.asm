@@ -1,0 +1,4 @@
+@SCREEN
+A=M
+@PUNT
+M=1
