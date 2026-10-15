@@ -12,4 +12,10 @@ int bufferWidth, bufferHeight;
 glfwGetFramebufferSize(mainWindow, &bufferWidth, &bufferHeight);
 
 ```
-
+    Por eso, cuando tomamos los valores de &bufferWidth y &bufferHeight, al compilar cambia la distribución de los pixeles del triángulo
+![alt text](../Capturas_prueba/bufferframe.png)
+# Tengamos en cuenta...
+```
+glDrawArrays(GL_TRIANGLES, 0, 3);
+```
+Dentro de varios conceptos que se usan en el GL, estpa esta línea de código que muestra los parámetros 
