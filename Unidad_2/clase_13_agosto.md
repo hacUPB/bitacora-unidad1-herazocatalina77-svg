@@ -17,5 +17,6 @@ Cuando a una variable se le asigna este valor
     const char* const mensaje_ro = "Hola, memoria de solo lectura";
     ese const va a representar que la variable no puede ser modificada bajo ninguna circunstancia
 # Modificar el heap
-
+Tal y cómo se muestra en el concepto, el heap sirve para 
 # Diferencias del comportamiento del Heap y del Stack
+Las diferencias del heap y el stack consisten en la forma que se declaran las variables, y cómo estas 
