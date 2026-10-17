@@ -19,4 +19,6 @@ Cuando a una variable se le asigna este valor
 # Modificar el heap
 Tal y cómo se muestra en el concepto, el heap sirve para 
 # Diferencias del comportamiento del Heap y del Stack
-Las diferencias del heap y el stack consisten en la forma que se declaran las variables, y cómo estas 
+Las diferencias del heap y el stack consisten en la forma que se declaran las variables, y cómo estas se guardan en la RAM
+    -Las variables que se fuera de declararse, se inicializan con un "new", quedan en la sección del heap de la RAM, y necesitan destructor para evitar fugas de memoria en esas posiciones de la RAM
+    -El stack no necesita que las variables se inicialicen, ya que se destruyen por sí solas al momento de terminar la compilación
