@@ -1,5 +1,5 @@
 # Modificando secciones de código
-# modificando el stacj
+# modificando el stack
 ![alt text](../Capturas_prueba/modificarStack.png)
 Cómo se observa acá, al tratar de modificar las variables están apareciendo problemas por la línea de código llamada
     ```
