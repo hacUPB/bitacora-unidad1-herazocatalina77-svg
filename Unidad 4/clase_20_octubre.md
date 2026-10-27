@@ -39,3 +39,32 @@ glSetObjectOption(GL_WINDOW_TARGET, GL_OPTION_WINDOW_HEIGHT, 600);
 glBindObject(GL_WINDOW_TARGET, 0);
 ```
     Este segmento de código muestra la creación de un objeto en OpenGL
+    Después, se crea una función en la cual se definen las variables que definen la figura 
+# glVertexAttribPointer
+```
+glVertexAttribPointer(
+		GLuint index,            // Atributo del shader (layout(location = index))
+		GLint size,              // Componentes por vértice (1–4)
+		GLenum type,             // Tipo de dato (GL_FLOAT, GL_INT, etc.)
+		GLboolean normalized,    // ¿Normalizar datos enteros?
+		GLsizei stride,          // Espaciado (en bytes) entre vértices
+		const void* pointer   	// Desplazamiento inicial dentro del VBO
+		);
+```
+# Vertex Shader
+```
+#version 460 core
+layout(location = 0) in vec3 aPos;
+void main() {
+		gl_Position = vec4(aPos, 1.0);
+		}
+```
+# Fragment Shader
+```
+#version 460 core
+out vec4 FragColor;
+void main() {
+		FragColor = vec4(1.0, 0.5, 0.2, 1.0);
+		}
+```
+
