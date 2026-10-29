@@ -41,7 +41,7 @@ El contexto de OpenGL son las herramientas que el lenguaje necesita para traduci
 # ¿Cuál es el rol de la biblioteca GLFW?
 Es la que representa el contexto que OpenGL necesita para traducir las instrucciones a la GPU
 # ¿Por qué crees que OpenGL necesita un contexto?
-
+Necesita las instrucciones 
 # ¿En últimas qué es el framebuffer y a qué te recuerda de las primeras unidades del curso?
 Me recuerda a cuándo usabamos el emulador y dependiendo del valor que colocabámos en la variable, llenabámos diferentes secciones de la pantalla de negro
 # ¿Qué relación tiene el viewport y el framebuffer?

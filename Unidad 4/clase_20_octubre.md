@@ -9,9 +9,10 @@
 # La gran novedad que introduce OpenGL moderno es el pipeline programable. ¿Qué significa esto? ¿Qué diferencia hay entre el pipeline fijo y el programable? ¿Qué ventajas le ves a esto? y si el pipeline es programable, ¿Qué tengo que programar?
 Las diferencias entre el pipeline fijo y el programable es que existe más control sobre los shaders en el pipeline controlabel ya que puedes controlar los valores 
 # Si fueras a describir el proceso de rasterización ¿Qué dirías?
-El proceso de rasterización consiste en que el computador identifique los vértices del polígono y su ubicación para saber su área, la cual el computador la llenará con píxeles y conocerá su espacio dentro de la pantalla al renderizar
+El proceso de rasterización consiste en que el computador identifique los vértices del polígono y su ubicación para saber su área, la cual el computador la llenará con píxeles y conocerá su espacio dentro de la pantalla al renderizar, ya que diferentes polígonos ocupan diferentes secciones de espacio 
 
 # ¿Qué son los fragmentos? ¿Es lo mismo un fragmento que un pixel? ¿Por qué?
+
 
 # Explica qué problema resuelve el Z-buffer y ¿Qué es el depth test
 El z-Buffer resuelve el problema de dimensionar de manera correcta la profundidad de una escena desde la cámara, es decir, muchos modelos 3d  son un cuerpo completo, por lo cual al renderizar en una pantalla 2d se debe identificar cuáles objetos son visibles y cuáles están unos encima de otros.
@@ -23,7 +24,7 @@ El fragment shader es el que identifica donde está el punto de luz y que tan al
 Teniendo en cuenta la posición de este polígono con respecto a la fuente de luz, se hacen unos cálculos teniendo en cuenta el RGB y las posiciones de la normal del polígono (la normal de un polígono en un modelo 3d es un vector que es perpendicular a ese polígono) y el vector dirección de la luz.
 El fragment shader técnicamente puede existir sin una fuente de iluminación, pero eso implica que no van a haber cálculos los cuales jueguen con los colores para crear un efecto de luz/sombra, lo cual hace que los materiales se vean planos, irrealistas y poco estéticos
 # ¿Qué implica para la GPU que una aplicación tenga múltiples fuentes de iluminación?
-
+La GPU identifica todoas estas fuentes de iluminación, y hace diferentes cálculos con respecto a la normal del polígono para calcular sus valores de acuerdo a su RGB
 # Objetos en Open GL
 ```
 // Crea la variable que contendrá el ID del objeto
