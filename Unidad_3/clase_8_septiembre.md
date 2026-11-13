@@ -31,6 +31,6 @@ En esta unidad vamos a utilizar los conceptos de programación orientada a objet
     hipótesis: ¿Cómo se va a guardar en la memoria?
     Teniendo en cuenta el contenido de cada una de las funciones llamadas, los vallores que tangan se guardaran en diferentes espacios de la nemoria
 # Usando los breakpoints: conclusiones
-![alt text](../bitacora-unidad1-herazocatalina77-svg/Capturas_prueba/unidad3_sesion1.png)
+![alt text](../Capturas_prueba/unidad3_sesion1.png)
     Posición en la RAM de la variable dt
     Actualmente las únicas que tienen valores 

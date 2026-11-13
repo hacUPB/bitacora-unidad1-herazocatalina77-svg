@@ -52,11 +52,10 @@ int main() {
 		}
 ```
 # ¿Cuál es el error del código comentado?
-![alt text](../bitacora-unidad1-herazocatalina77-svg/Capturas_prueba/variables_protegidas_clase.png)
+![alt text](../Capturas_prueba/variables_protegidas_clase.png)
 En este caso, observamos que la clase AccesControl, tiene variables protegidas y privadas, las cuáles el main NO puede acceder directamente, por eso sale error
 # prueba 2
-![alt text](../bitacora-unidad1-herazocatalina77-svg/Capturas_prueba/Prueba_Encapsulamiento_2.png)
-
+![alt text](../Capturas_prueba/Prueba_Encapsulamiento_2.png)
 En este, al intentar compilar tampoco se pudo debido a que no se pudo tener acceso a una variable privada directamente desde una clase
 
 # Ahora miremos este código

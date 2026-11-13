@@ -2,7 +2,7 @@
 
 	1. Se necesita definir los vértices del triaangulo
 # VAO
-Vertex Array Object
+Vertex Array Object: 
 # VBO
 Vertex Buffer Object: Este elemento 
 # ¿Qué entendemos por shader?
